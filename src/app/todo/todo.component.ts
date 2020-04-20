@@ -10,10 +10,10 @@ import { NgForm } from '@angular/forms';
   providers: [TodoService]
 })
 export class TodoComponent implements OnInit {
-  service: any;
-  formData: any;
   
-  constructor( private toDoService: TodoService) { }
+  
+  constructor( private toDoService: TodoService,
+    public service: TodoService) { }
 
   ngOnInit(){
     this.resetForm();
