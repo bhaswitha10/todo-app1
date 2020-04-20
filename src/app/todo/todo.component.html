@@ -1,0 +1,63 @@
+
+<main>
+    <div class="container"  >
+        <div class="jumbotron" style="background-color:burlywood;">
+            <h1  class="blue-text , serif" >Welcome to TO-DO APP!</h1>         
+        </div>       
+    </div> 
+    
+    <form #form="ngForm">
+        <div class="form-group">
+            <label for="task" style="color:rgb(107, 28, 28)">Task</label>
+            <input name="task" #task="ngModel" [(ngModel)]="service.formData.task" class="form-control" placeholder="Your task here" required>
+        </div>
+        <div class="form-group">
+            <label for="date" style="color:rgb(107, 28, 28)">DeadLine</label>
+            <input name="date" #date="ngModel" [(ngModel)]="service.formData.date" class="form-control" placeholder="Deadline">
+        </div>
+        <div class="form-group">
+            <label for="description" style="color:rgb(107, 28, 28)">Description</label>
+            <input name="description" #description="ngModel" [(ngModel)]="service.formData.description" class="form-control" placeholder="Description">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="buttonadd" >Add</button>
+        </div>
+    
+    </form> 
+</main>
+    
+   
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

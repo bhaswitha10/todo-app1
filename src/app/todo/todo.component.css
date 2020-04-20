@@ -1,0 +1,61 @@
+.jumbotron {
+    background-size: cover;      
+    margin: 10px auto;   
+  }
+
+
+.blue-text{
+    color:rgb(107, 28, 28);
+    font-size:50px;
+    text-align:center;
+    
+}
+.serif {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+table, th, td {
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align:center;
+    margin: 10px;
+    float:center;
+}
+th, td {
+    padding: 15px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid  burlywood;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid  burlywood;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.buttonadd {
+  width: 50%;
+  background-color: burlywood;
+  color: rgb(107, 28, 28);
+  padding: 14px 20px;
+  margin: 8px 0;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+
