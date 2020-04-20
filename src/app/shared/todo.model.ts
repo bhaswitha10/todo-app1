@@ -1,7 +1,7 @@
 export class Todo {
-    id: string;
+    id : string;
     task: string;
-    date: string;
-    description: string;
+    deadline:string;
+    description:string;
+    }
     
-}

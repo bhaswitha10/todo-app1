@@ -4,18 +4,17 @@
 
 export const environment = {
   production: false,
-  firebase:{
-    apiKey: "AIzaSyAvRscDnPISzLZvHJRglFsOZXNIcIilUII",
-    authDomain: "to-do-app-e94f6.firebaseapp.com",
-    databaseURL: "https://to-do-app-e94f6.firebaseio.com",
-    projectId: "to-do-app-e94f6",
-    storageBucket: "to-do-app-e94f6.appspot.com",
-    messagingSenderId: "408792203687",
-    appId: "1:408792203687:web:aafdaaaa645a05afe97682",
-    measurementId: "G-3ELYS56ZBH"
+  firebaseConfig : {
+  apiKey: "AIzaSyBimlrhumpMXl1KsEjOSVY2oRDkMyIQylU",
+  authDomain: "todo-app-fbc0a.firebaseapp.com",
+  databaseURL: "https://todo-app-fbc0a.firebaseio.com",
+  projectId: "todo-app-fbc0a",
+  storageBucket: "todo-app-fbc0a.appspot.com",
+  messagingSenderId: "350941640160",
+  appId: "1:350941640160:web:6da429985768e855d4e785",
+  measurementId: "G-WJSWZ6553X"
   }
 };
-
 
 /*
  * For easier debugging in development mode, you can import the following file

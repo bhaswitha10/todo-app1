@@ -1,16 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {AngularFireModule} from  '@angular/fire';
-import {AngularFireDatabaseModule} from '@angular/fire/database';
-import { AppRoutingModule } from './app-routing.module';
+import { AngularFireModule} from '@angular/fire';
+import { AngularFirestoreModule} from '@angular/fire/firestore';
 import { AppComponent } from './app.component';
-import {environment} from '../environments/environment';
+import { environment } from '../environments/environment';
 import { TodoComponent } from './todo/todo.component';
-import { FormsModule } from '@angular/forms';
-import { TodoService } from './todo/shared/todo.service';
-
-
-
+import { TodoService } from './shared/todo.service';
+import { FormsModule } from "@angular/forms"
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,10 +17,11 @@ import { TodoService } from './todo/shared/todo.service';
   ],
   imports: [
     BrowserModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFirestoreModule,
     FormsModule,
-    AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebase,'todo-list'),
-    AngularFireDatabaseModule
+    BrowserAnimationsModule,
+    ToastrModule.forRoot()
   ],
   providers: [TodoService],
   bootstrap: [AppComponent]

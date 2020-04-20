@@ -1,61 +1,62 @@
 .jumbotron {
-    background-size: cover;      
-    margin: 10px auto;   
-  }
+  background-size: cover;      
+  margin: 10px auto;   
+}
 
 
 .blue-text{
-    color:rgb(107, 28, 28);
-    font-size:50px;
-    text-align:center;
-    
+  color:rgb(107, 28, 28);
+  font-size:50px;
+  text-align:center;
+  
 }
+.brown-text{
+ color:rgb(107, 28, 28);
+ font-size:20px;
+ text-align:center; 
+ font-family: "Times New Roman", Times, serif;
+}
+
+.brown1-text{
+  color:rgb(107, 28, 28);
+  font-size:15px;
+  text-align:center; 
+  font-family: "Times New Roman", Times, serif;
+ }
 .serif {
-    font-family: "Times New Roman", Times, serif;
-  }
-
-table, th, td {
-    border-collapse: collapse;
-    border: 2px solid black;
-    text-align:center;
-    margin: 10px;
-    float:center;
-}
-th, td {
-    padding: 15px;
-}
-
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid  burlywood;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-input[type=number], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid  burlywood;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-.buttonadd {
-  width: 50%;
-  background-color: burlywood;
-  color: rgb(107, 28, 28);
-  padding: 14px 20px;
-  margin: 8px 0;
-  font-size: 15px;
-  border-radius: 4px;
-  cursor: pointer;
   font-family: "Times New Roman", Times, serif;
 }
 
+input.ng-touched.ng-invalid{
+  border-color: red;
+}
 
+input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid  burlywood;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+
+.buttonadd {
+width: 50%;
+background-color: burlywood;
+color: rgb(107, 28, 28);
+padding: 14px 20px;
+margin: 8px 0;
+font-size: 20px;
+border-radius: 4px;
+cursor: pointer;
+font-family: "Times New Roman", Times, serif;
+}
+
+table, th, td {
+  border: 2px solid burlywood;
+  border-collapse: collapse;
+  text-align: center;
+}
 
