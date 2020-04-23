@@ -11,9 +11,7 @@
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**",
-      "database-rules.json",
-      "storage.rules"
+      "**/node_modules/**"
     ],
     "rewrites": [
       {
